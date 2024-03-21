@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Signup Page</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TODO: Add Image and Odin Sign -->
+    <sidebar class="sidebar">
+      <img
+        src="halie-west-25xggax4bSA-unsplash.jpg"
+        alt="Lovely Background Image"
+      />
+      <div class="top-text">
+        <img src="odin-lined.png" alt="Odin" />
+        <p>ODIN</p>
+      </div>
+    </sidebar>
+
+    <!-- Main -->
+    <main>
+      <section class="intro">
+        <p>
+          This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started
+        </p>
+        <br />
+        <p>You <em>know</em> you want to.</p>
+        <br />
+        <br />
+        <br />
+      </section>
+
+      <form action="#">
+        <!-- TODO: Check if it will be a caption -->
+        <h2>Let's do this</h2>
+
+        <div class="form-input">
+          <label for="first-name">FIRST NAME</label>
+          <input type="text" name="first-name" id="first-name" />
+        </div>
+        <div class="form-input">
+          <label for="last-name">LAST NAME</label>
+          <input type="text" name="last-name" id="last-name" />
+        </div>
+        <div class="form-input">
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-input">
+          <label for="phone-num">PHONE NUMBER</label>
+          <input type="text" name="phone-num" id="phone-num" />
+        </div>
+        <div class="form-input">
+          <label for="password">PASSWORD</label>
+          <input type="password" name="password" id="password" />
+          <span id="password-err" style="display: none"
+            >Password do not match</span
+          >
+        </div>
+        <div class="form-input">
+          <label for="confirm-pass">CONFIRM PASSWORD</label>
+          <input type="password" name="confirm-pass" id="confirm-pass" />
+        </div>
+      </form>
+      <section class="closing">
+        <button type="submit">Create Account</button>
+        <p>Already have an account <a href="#">Log In</a></p>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
